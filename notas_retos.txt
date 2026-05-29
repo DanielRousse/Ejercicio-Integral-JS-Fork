@@ -1,0 +1,32 @@
+Parte 5 - Mini retos
+
+1. Insertar una etiqueta similar a "disponible" (la que está en los contenidos del producto). Debe aparecer en el elemento topProduct. Esto cuando el contador de likes supere los 10 likes.
+
+Estos son estilos para la etiqueta, no es necesario que los agegues, ya se incluyeron en CSS:
+
+    --color-info: para el color del texto
+    --color-info-bg: para el backgroung de la etiqueta
+    --color-info-border: para el borde de la etiqueta
+
+Este es el elemento que deberá insertarse. No modifiques los nombres de clases ni id:
+
+<button id="infoBtn" type="button" class="btn btn-info flex-shrink-0">¡Producto destacado!</button>
+
+Realizalo sobre el mismo archivo "likes.js" creado previamente
+
+2.  Crear la funcionalidad para agregar el producto al carrito/eliminarlo.
+
+Crea un archivo nuevo, puedes llamarlo "reserve.js".
+Vas a crear una función que le de interactividad al botón "Añadir al carrito"
+El estado inicial del producto es disponible. Cuando se haga click en el botón, ocurre lo siguiente: 
+- El botón del carrito de compras cambia sus estilos a color rojo, y el texto muestra "eliminar del carrito".
+- La etiqueta (el mismo que aparece en los datos del producto) y texto de disponibilidad (el que viene al final de la página) cambian su texto a "Apartado" y cambian a un color amarillo. Busca los siguientes estilos en tu css:
+
+
+    --color-warning: para el color de texto (de la etiqueta y el texto al final de la         página)
+    --color-warning-bg: para el color de fondo de la etiqueta
+    --color-warning-border: para el borde de la etiqueta.
+
+Cambia los estilos desde JS
+
+Pista: la funcionalidad es parecida a Mostrar más, cambiar disponibilidad.
